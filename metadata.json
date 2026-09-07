@@ -1,0 +1,6 @@
+{
+  "name": "Dark Peak",
+  "description": "ChatGPT benzeri, akıcı Türkçe dil desteği ve zengin sohbet özelliklerine sahip yapay zeka asistanı.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

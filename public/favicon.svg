@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <!-- 4K Zümrüt & Nane Gradyanı -->
+    <linearGradient id="favStarGradient" x1="15" y1="15" x2="85" y2="85" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A7F3D0"/>
+      <stop offset="30%" stop-color="#34D399"/>
+      <stop offset="70%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <radialGradient id="favCoreGlow" cx="50" cy="50" r="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#34D399" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Arka Plan Tamamen Şeffaf (Transparent) -->
+  <!-- Arka Parıltı -->
+  <circle cx="50" cy="50" r="36" fill="url(#favCoreGlow)"/>
+  <!-- Saf 4-Köşeli AI Yıldızı -->
+  <path d="M50 4C50 29.405 29.405 50 4 50C29.405 50 50 70.595 50 96C50 70.595 70.595 50 96 50C70.595 50 50 29.405 50 4Z" fill="url(#favStarGradient)"/>
+  <!-- Merkez Çekirdek Işıltısı -->
+  <circle cx="50" cy="50" r="6" fill="#FFFFFF"/>
+</svg>
